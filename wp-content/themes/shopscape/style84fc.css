@@ -1019,7 +1019,7 @@ h6 {
 .btDarkSkin .btLightSkin .rowItem.btDarkSkin,
 .btLightSkin .btDarkSkin .btLightSkin .rowItem.btLightSkin,
 .btLightSkin .btDarkSkin .btLightSkin .rowItem.btDarkSkin {
-    background-color: transparent;
+    background-color: #FF6100;
     }
 .rowItemContent {
     position: relative;
@@ -1875,7 +1875,7 @@ body:not(.btHalfPage) .rowItem.animate:nth-child(11) {
     font-weight: 400;
     }
 .menuPort nav ul li a:hover {
-    color: #29b965 !important;
+    color: #FF6100 !important;
     text-decoration: none;
     }
 .menuPort nav ul ul li {
@@ -1919,7 +1919,7 @@ body:not(.btHalfPage) .rowItem.animate:nth-child(11) {
 /* Only horizontal menu */
 .btMenuHorizontal .menuPort nav > ul > li.current-menu-ancestor > a,
 .btMenuHorizontal .menuPort nav > ul > li.current-menu-item > a {
-    border-bottom: 2px solid #29b965;
+    border-bottom: 2px solid #FF6100;
     }
 .btMenuHorizontal .menuPort nav > ul > li > ul li.current-menu-ancestor > a,
 .btMenuHorizontal .menuPort nav > ul > li > ul li.current-menu-item > a {
@@ -5633,7 +5633,7 @@ a.btContinueReading:hover {
 .btLightSkin .btDarkSkin .btIco.btIcoDefaultType.btIcoDefaultColor:hover .btIcoHolder:before,
 .btDarkSkin .btLightSkin .btDarkSkin .btIco.btIcoDefaultType.btIcoAccentColor .btIcoHolder:before,
 .btDarkSkin .btLightSkin .btDarkSkin .btIco.btIcoDefaultType.btIcoDefaultColor:hover .btIcoHolder:before {
-    color: #FF6100;
+    color: #000;
     }
 .btLightSkin .btIco.btIcoDefaultType.btIcoAlternateColor .btIcoHolder:before,
 .btDarkSkin .btLightSkin .btIco.btIcoDefaultType.btIcoAlternateColor .btIcoHolder:before,
@@ -8360,6 +8360,17 @@ to {
     display: block;
     margin: 0 auto 2em;
     border-color: #FF6100;
+    border-style: solid;
+    border-width: 1px 0;
+    }
+
+   .rowItemContent .btDash.bottomDash .dash:after {
+    content: ' ';
+    clear: both;
+    width: auto;
+    display: block;
+    margin: 0 auto 2em;
+    border-color: #000;
     border-style: solid;
     border-width: 1px 0;
     }
