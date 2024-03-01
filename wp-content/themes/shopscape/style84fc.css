@@ -984,6 +984,7 @@ h6 {
 .gutter .port {
     max-width: 1140px;
     margin: auto;
+    
     }
 
 /* Divider */
@@ -2080,7 +2081,7 @@ body.btMenuHorizontal .menuPort nav ul ul:before {
     right: 0;
     height: 2px;
     z-index: 5;
-    background-color: #29b965;
+    background-color: #FF6100;
     }
 body.btMenuHorizontal .menuPort nav ul ul ul:before {
     top: -1px;
@@ -4946,8 +4947,9 @@ form.wpcf7-form .wpcf7-submit:hover {
 .btBox .btImage {
     margin-bottom: 10px;
     }
+
 .btBox .btImage img {
-    width: auto;
+    width: 100%;
     margin: auto;
     }
 
@@ -7553,7 +7555,7 @@ html.touch .btShowTitle {
     }
 .bpgPhoto:hover .captionPane {
     opacity: 1;
-    background-color: rgba(231,34,61,0.7);
+    background-color: #f5bc98;
     }
 .bpgPhoto:hover .btShowTitle {
     -webkit-transform: translateY(100%);
