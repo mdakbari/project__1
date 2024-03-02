@@ -12,7 +12,7 @@
 	<meta name="mobile-web-app-capable" content="yes">
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	<script>document.documentElement.className = document.documentElement.className + ' yes-js js_active js'</script>
-	<title>Contact form &#8211; Application &amp; Technology</title>
+	<title>Contact </title>
 	<meta name='robots' content='max-image-preview:large' />
 
 	<!-- Google Tag Manager for WordPress by gtm4wp.com -->
@@ -559,7 +559,7 @@
 	<!-- BEGIN recaptcha, injected by plugin wp-recaptcha-integration  -->
 
 	<!-- END recaptcha -->
-	<link rel="icon" href="wp-content/uploads/sites/3/2016/04/cropped-logo_black-32x32.png" sizes="32x32" />
+	<link rel="icon" href="wp-content/uploads/sites/3/2016/04/OM POWER.png" sizes="32x32" />
 	<link rel="icon" href="wp-content/uploads/sites/3/2016/04/cropped-logo_black-192x192.png"
 		sizes="192x192" />
 	<link rel="apple-touch-icon" href="wp-content/uploads/sites/3/2016/04/cropped-logo_black-180x180.png" />
@@ -604,7 +604,7 @@
 								height: 80px !important;
 								margin-bottom: 10px;" src="wp-content/uploads/sites/3/2016/04/OM POWER.png"
 									alt="Application &amp; Technology"><img class="btAltLogo" style="width: 190px !important ;
-									height: 80px !important;
+									height: 70px !important;
 									margin-bottom: 10px;" src="../wp-content/uploads/sites/2/2016/04/OM POWER.png"
 									alt="Application &amp; Technology"></a> </span>
 					</div><!-- /logo -->
@@ -698,6 +698,8 @@
 										font-size: 40px !important;
 										cursor: pointer;
 										color: #23cd56;
+										border: none !important;
+										
 									}
 								</style>
 
@@ -708,7 +710,9 @@
 										const message = "Hello, I am interested in your products. Please provide me with more details."
 										
 										const url = `https://api.whatsapp.com/send?phone=${pnumber}&text=${encodeURIComponent(message)}`
-										window.location.href = url
+
+										window.open(url, '_blank');
+
 									});
 								</script>
 

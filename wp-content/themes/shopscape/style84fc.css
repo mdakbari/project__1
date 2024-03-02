@@ -1917,11 +1917,6 @@ body:not(.btHalfPage) .rowItem.animate:nth-child(11) {
     margin: 0 -8px 0 1em;
     }
 
-/* Only horizontal menu */
-.btMenuHorizontal .menuPort nav > ul > li.current-menu-ancestor > a,
-.btMenuHorizontal .menuPort nav > ul > li.current-menu-item > a {
-    border-bottom: 2px solid #FF6100;
-    }
 .btMenuHorizontal .menuPort nav > ul > li > ul li.current-menu-ancestor > a,
 .btMenuHorizontal .menuPort nav > ul > li > ul li.current-menu-item > a {
     color: #29b965 !important;
