@@ -121,10 +121,10 @@ All HTML/CSS/JAVASCRIPT code is released under Envato's Regular/Extended License
     font-style: normal;
     }
 
-/* Variables */
- // Base gutter width // Headline fond // Headline supertitle font // Headline subtitle font // Headline fond // Base font // Base font // Base font size // Base font color // Base headline color // Base bg color // Base border color // Sub bg color // Base font color // Base headline color // Base bg color // Base border color // Sub bg color // Main color // Darker main color // Darker main color // Alternative color // Darker main color // Darker main color ///* hue-offset, saturation-offset, lightness-offset */
- // Sidebar width (%) // Padding between sidebar and sontent // Left and right page padding for boxed content // Top and bottom padding between content elements (base value) // RowItem padding // Default spacing in grid gallery // Defines logo height and menu line height // Top and bottom padding of the whole horizontal menu (px) // Padding between horizontal menu elements (px) // Width of the vertical menu (px) // Top bar height (px) // dropdown width (px) // Base font size // Small icon size // Small icon size // Small icon size // Small icon size // Small icon size/* Aliases */
-/* Reset */
+Variables */
+ /* // Base gutter width // Headline fond // Headline supertitle font // Headline subtitle font // Headline fond // Base font // Base font // Base font size // Base font color // Base headline color // Base bg color // Base border color // Sub bg color // Base font color // Base headline color // Base bg color // Base border color // Sub bg color // Main color // Darker main color // Darker main color // Alternative color // Darker main color // Darker main color ///* hue-offset, saturation-offset, lightness-offset */
+ /* // Sidebar width (%) // Padding between sidebar and sontent // Left and right page padding for boxed content // Top and bottom padding between content elements (base value) // RowItem padding // Default spacing in grid gallery // Defines logo height and menu line height // Top and bottom padding of the whole horizontal menu (px) // Padding between horizontal menu elements (px) // Width of the vertical menu (px) // Top bar height (px) // dropdown width (px) // Base font size // Small icon size // Small icon size // Small icon size // Small icon size // Small icon sizeAliases */
+Reset
 article,
 aside,
 details,
@@ -3142,8 +3142,8 @@ html[data-useragent*='MSIE 10.0'] body.btMenuHorizontal .menuPort ul > li.on > u
     margin: 0;
     }
 .btSiteFooterWidgets .btBox .btImage img {
-    height: ;
-    width: 1200px;
+    /* height: ;
+    width: 1200px; */
     /* max-width: 100%; */
 
     margin: initial;
@@ -6125,8 +6125,8 @@ a.btContinueReading:hover {
 /* Accent */
 .btnFilledStyle.btnAccentColor,
 .btnOutlineStyle.btnAccentColor:hover {
-    background-color: #29b965;
-    border: 2px solid #29b965;
+    background-color: #FF6100;
+    border: 2px solid #FF6100;
     }
 .btnFilledStyle.btnAccentColor span,
 .btnOutlineStyle.btnAccentColor:hover span,
@@ -6143,8 +6143,8 @@ a.btContinueReading:hover {
 .btnOutlineStyle.btnAccentColor,
 .btnFilledStyle.btnAccentColor:hover {
     background-color: transparent;
-    border: 2px solid #29b965;
-    color: #29b965;
+    border: 2px solid #FF6100;
+    color: #FF6100;
     }
 .btnOutlineStyle.btnAccentColor span,
 .btnFilledStyle.btnAccentColor:hover span,
@@ -6156,7 +6156,7 @@ a.btContinueReading:hover {
 .btnFilledStyle.btnAccentColor:hover .btIco a:before,
 .btnOutlineStyle.btnAccentColor button,
 .btnFilledStyle.btnAccentColor:hover button {
-    color: #29b965 !important;
+    color: #FF6100 !important;
     }
 .btnBorderlessStyle.btnAccentColor span,
 .btnBorderlessStyle.btnNormalColor:hover span,
@@ -18257,7 +18257,7 @@ ul.products li.product .yith-wcwl-wishlistaddedbrowse.show a:hover {
     padding-bottom: 10em;
     }
 .topExtraSpaced {
-    padding-top: 14em;
+    padding-top: 15em;
     }
 .bottomExtraSpaced {
     padding-bottom: 14em;
