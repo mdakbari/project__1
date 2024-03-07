@@ -121,10 +121,10 @@ All HTML/CSS/JAVASCRIPT code is released under Envato's Regular/Extended License
     font-style: normal;
     }
 
-Variables */
- /* // Base gutter width // Headline fond // Headline supertitle font // Headline subtitle font // Headline fond // Base font // Base font // Base font size // Base font color // Base headline color // Base bg color // Base border color // Sub bg color // Base font color // Base headline color // Base bg color // Base border color // Sub bg color // Main color // Darker main color // Darker main color // Alternative color // Darker main color // Darker main color ///* hue-offset, saturation-offset, lightness-offset */
- /* // Sidebar width (%) // Padding between sidebar and sontent // Left and right page padding for boxed content // Top and bottom padding between content elements (base value) // RowItem padding // Default spacing in grid gallery // Defines logo height and menu line height // Top and bottom padding of the whole horizontal menu (px) // Padding between horizontal menu elements (px) // Width of the vertical menu (px) // Top bar height (px) // dropdown width (px) // Base font size // Small icon size // Small icon size // Small icon size // Small icon size // Small icon sizeAliases */
-Reset
+/* Variables */
+ // Base gutter width // Headline fond // Headline supertitle font // Headline subtitle font // Headline fond // Base font // Base font // Base font size // Base font color // Base headline color // Base bg color // Base border color // Sub bg color // Base font color // Base headline color // Base bg color // Base border color // Sub bg color // Main color // Darker main color // Darker main color // Alternative color // Darker main color // Darker main color ///* hue-offset, saturation-offset, lightness-offset */
+ // Sidebar width (%) // Padding between sidebar and sontent // Left and right page padding for boxed content // Top and bottom padding between content elements (base value) // RowItem padding // Default spacing in grid gallery // Defines logo height and menu line height // Top and bottom padding of the whole horizontal menu (px) // Padding between horizontal menu elements (px) // Width of the vertical menu (px) // Top bar height (px) // dropdown width (px) // Base font size // Small icon size // Small icon size // Small icon size // Small icon size // Small icon size/* Aliases */
+/* Reset */
 article,
 aside,
 details,
@@ -1005,10 +1005,9 @@ h6 {
 .btScrollInfoRow .sIcon {
     margin-bottom: 5px !important;
     }
-.rowItem {
-    /* padding: 0 20px;
-    margin-right: 20px; */
-    }
+/* .rowItem {
+    padding: 0 20px;
+    } */
 .btDarkSkin .rowItem.btLightSkin,
 .btDarkSkin .rowItem.btDarkSkin,
 .btLightSkin .btDarkSkin .rowItem.btLightSkin,
@@ -1329,7 +1328,7 @@ h6 {
     }
 .boldSection.btSolidDarkBackground:before,
 .boldSection.btSolidDarkBackground .btSliderPort:before {
-    background-color: #181A1E;
+    /* background-color: #ffffff; */
     opacity: .4;
     }
 .boldSection.btSolidLightBackground:before,
@@ -3143,8 +3142,8 @@ html[data-useragent*='MSIE 10.0'] body.btMenuHorizontal .menuPort ul > li.on > u
     margin: 0;
     }
 .btSiteFooterWidgets .btBox .btImage img {
-    /* height: ;
-    width: 1200px; */
+    height: ;
+    width: 1200px;
     /* max-width: 100%; */
 
     margin: initial;
