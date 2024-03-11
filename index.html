@@ -721,8 +721,23 @@
 				<div class="btContent">
 					<div class="bt_bb_wrapper">
 						<section id="bt_section65e0413d00002" data-parallax="0.1" data-parallax-offset="0"
-							class="boldSection topLargeSpaced bottomSemiSpaced btDarkSkin gutter inherit btParallax wBackground cover btBackgroundOverlay btSolidDarkBackground"
-							style="background-image:url('wp-content/uploads/sites/3/2016/04/OM POWER 1 (1).jpg');">
+							class="boldSection topLargeSpaced bottomSemiSpaced btDarkSkin gutter inherit btParallax wBackground cover btBackgroundOverlay btSolidDarkBackground homebg"
+							style="">
+							
+						<style>
+							.homebg{
+								background-image:url('wp-content/uploads/sites/3/2016/04/OM POWER 1 (1).jpg');
+							}
+
+							@media (max-width: 425px) {
+								.homebg{
+									background-image : url('wp-content/uploads/sites/3/2016/04/OM POWER 1 (1).jpg');
+									/* background-size: % !important; */
+									background-position: 0px 0px !important;
+								}
+							}
+						</style>
+
 							<div class="port">
 								<div class="boldCell">
 									<div class="boldCellInner">
@@ -793,11 +808,13 @@
 										<div class="boldRow ">
 											<div class="boldRowInner">
 												<div class="rowItem col-md-5 col-ms-12  btTextCenter animate animate-fadein inherit"
-													data-width="5" style="margin-top: 210px !important; ">
-													<div class="rowItemContent" style="height: 100px !important;">
+													data-width="5"  
+													
+													<div class="rowItem col-md-5 col-ms-12  btTextCenter animate animate-fadein inherit"
+													data-width="5">
+													<div class="rowItemContent">
 														<div class="bpgPhoto btImageDefaultHover">
-															<div class="btImage"><img decoding="async"
-																	height="100px !important" width="1500"
+															<div class="btImage1"><img decoding="async"
 																	src="wp-content/uploads/sites/3/2016/04/abouct_om.png"
 																	alt=""></div>
 														</div>
@@ -805,6 +822,13 @@
 															<hr>
 														</div>
 													</div>
+												<style>
+													@media (min-width: 1200px) {
+														.btImage1{
+															margin-top	: 210px !important;
+														}
+													}
+												</style>
 												</div>
 												<div class="rowItem col-md-7 col-ms-12  btTextLeft inherit"
 													data-width="7">
