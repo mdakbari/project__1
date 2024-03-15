@@ -5647,7 +5647,7 @@ a.btContinueReading:hover {
 .btDarkSkin .btLightSkin .btIco.btIcoDefaultType.btIcoAccentColor:hover .btIcoHolder:before,
 .btLightSkin .btDarkSkin .btLightSkin .btIco.btIcoDefaultType.btIcoDefaultColor .btIcoHolder:before,
 .btLightSkin .btDarkSkin .btLightSkin .btIco.btIcoDefaultType.btIcoAccentColor:hover .btIcoHolder:before {
-    color: #000;
+    color: #000 !important;
     }
 .btDarkSkin .btIco.btIcoDefaultType.btIcoDefaultColor .btIcoHolder:before,
 .btDarkSkin .btIco.btIcoDefaultType.btIcoAccentColor:hover .btIcoHolder:before,
