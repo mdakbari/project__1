@@ -3846,7 +3846,7 @@ body.btNoDashInSidebar .topBar {
     }
 body:not(.btNoDashInSidebar) .btBox h4:after,
 body:not(.btNoDashInSidebar) .btCustomMenu h4:after {
-    color: #29b965;
+    color: #FF6100;
     }
 
 /* Calendar */
@@ -10158,8 +10158,8 @@ h4.nbs.nsNext a:hover:after {
     }
 .recentTweets img {
     margin: 0 auto 10px;
-    border-radius: 50%;
-    display: block;
+    border-radius: 10%;
+    /* display: block; */
     }
 .recentTweets small {
     width: 40px;

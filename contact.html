@@ -560,11 +560,9 @@
 
 	<!-- END recaptcha -->
 	<link rel="icon" href="wp-content/uploads/sites/3/2016/04/OM POWER.png" sizes="32x32" />
-	<link rel="icon" href="wp-content/uploads/sites/3/2016/04/cropped-logo_black-192x192.png"
+	<link rel="icon" href="wp-content/uploads/sites/3/2016/04/OM POWER.png"
 		sizes="192x192" />
-	<link rel="apple-touch-icon" href="wp-content/uploads/sites/3/2016/04/cropped-logo_black-180x180.png" />
-	<meta name="msapplication-TileImage"
-		content="https://shopscape.bold-themes.com/application/wp-content/uploads/sites/3/2016/04/cropped-logo_black-270x270.png" />
+	<link rel="apple-touch-icon" href="wp-content/uploads/sites/3/2016/04/OM POWER.png" />
 	<script>window.bt_bb_preview = false</script>
 	<script>window.bt_bb_custom_elements = true;</script>
 	<script src="https://kit.fontawesome.com/fdb3853309.js" crossorigin="anonymous"></script>
@@ -632,7 +630,7 @@
 							<ul id="menu-primary-menu" class="menu">
 								<li id="menu-item-1535"
 									class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-292 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-1535">
-									<a href="index.html" aria-current="page">Home</a>
+									<a href="index.html"  aria-current="page">Home</a>
 								</li>
 								<li id="menu-item-1524"
 									class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1524">
@@ -654,35 +652,28 @@
 											class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1592">
 											<a href="hpf.html">HPF DRIVER</a>
 										</li>
-										<li id="menu-item-1598"
-											class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1598">
-											<a href="hpf_high.html">HPF DRIVER HIGH AMP</a>
-										</li>
 
 										<li id="menu-item-1593"
 											class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1593">
 											<a href="waterproof.html">
 												WATERPROOF DRIVER</a>
 										</li>
-										<li id="menu-item-1599"
-											class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1599">
-											<a href="smps.html">SMPS</a>
-										</li>
+							
 									</ul>
 								</li>
 								<li id="menu-item-1536"
 									class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1536">
-									<a href="inner-page/index.html">Portfolio</a>
+									<a href="download.html" >Download</a>
 
 								</li>
 								<li id="menu-item-1530"
 									class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1530">
-									<a href="service.html"> Service</a>
+									<a href="service.html" > Service</a>
 
 								</li>
 								<li id="menu-item-1531"
 									class="btMenuWideDropdown menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1531">
-									<a href="contact.html">Contact</a>
+									<a href="contact.html" >Contact</a>
 								</li>
 
 								<li id="menu-item-1530"
@@ -690,32 +681,31 @@
 							<a id="whatsappBtn" style="margin-top: 0px;">
 									<!-- <img src="wp-content/uploads/sites/3/2016/04/whatsapp.png" alt="whatsapp" style="width: 30px !important; height: 25px !important; background: none;"> -->
 									<i class="fa-brands fa-square-whatsapp fa-2xl cus" style="color: #23cd56; "></i>
-							</a>
+                            </a>
 								
 								</li>
 								<style>
+                                    
+                                    
 									.cus {
 										font-size: 40px !important;
 										cursor: pointer;
 										color: #23cd56;
-										border: none !important;
-										
 									}
+
+                                    
 								</style>
 
 								<script>
 									document.getElementById("whatsappBtn").addEventListener("click", function () {
 
-										const pnumber = 9016755950
+										const pnumber = 7041882094
 										const message = "Hello, I am interested in your products. Please provide me with more details."
 										
 										const url = `https://api.whatsapp.com/send?phone=${pnumber}&text=${encodeURIComponent(message)}`
-
-										window.open(url, '_blank');
-
+										window.location.href = url
 									});
 								</script>
-
 
 							</ul>
 						</nav>
@@ -1055,7 +1045,7 @@
 			const message = document.getElementById("message").value;
 
 			const msg = `Name: ${name} \n Email: ${email} \n Subject: ${subject} \n Phone: ${phone} \n Message: ${message}`;
-			const pnumber = 9016755950;
+			const pnumber = 7041882094;
 
 			const whatsapp = `https://api.whatsapp.com/send?phone=${pnumber}&text=${encodeURIComponent(msg)}`;
 
